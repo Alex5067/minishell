@@ -6,8 +6,7 @@ Write your own bash on C language.
 
 # Rules
 
-Not use more than one global variable, think about it and be ready to explain why
-you do it.
+Not use more than one global variable.
 Show a prompt when waiting for a new command
 
 Search and launch the right executable (based on the PATH variable or by using
@@ -42,8 +41,7 @@ $? should work like in bash
 
 ctrl-C, ctrl-D and ctrl-\ should have the same result as in bash
 
-Use up and down arrows to navigate through the command using termcap (mandatory) history which we will then be able to edit (at least like we can for classic lines)
-if we feel like it (the line, not the history).
+Use up and down arrows to navigate through the command using termcap history which we will then be able to edit.
 
 # Run
 
